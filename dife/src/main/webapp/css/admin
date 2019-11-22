@@ -1,0 +1,89 @@
+#contents-search{
+    height: 20px;
+    line-height: 40px;
+    text-align: right;
+    padding: 20px;
+}
+
+#search-column{
+    
+}
+.search-query{
+    width: 200px;
+    height: 25px;
+}
+#content-center{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 300px 800px;
+    padding: 20px;
+}
+
+#content-center-center{
+    height: 600px;
+    width: 1050px;
+    padding: 10px;
+}
+
+
+#content-center-center-top{
+    height: 550px;
+    width: 1050px;
+    text-align: left;
+}
+
+#content-bottom-update{
+    float: left;
+}
+
+#content-bottom-count{
+    float: right;
+    
+}
+
+.table-info{
+    padding: 10px;
+}
+
+.table-info > thead, th, tbody, td{
+    padding: 10px;
+}
+
+/* 占쎄틙 占쎈툧占쎈퓠 占쎌넅筌롳옙 */
+dl {
+  position: relative;
+  width: 1050px;
+  height: 450px;
+}
+
+/* 占쎄틙 筌롫뗀�뤀 */
+dt {
+  height: 30px;
+  float: left;
+  width: 100px;
+  z-index: 50;
+  position: relative;
+  text-align: center;
+  background: #1F2124;
+}
+
+/* 占쎄틙 占쎌읈筌ｏ옙 占쏙옙 */
+dd {
+  position: absolute;
+  padding-top: 30px;
+  background-color: #1F2124;
+  width: 1050px;
+  height: 450px;
+  margin: 0;
+}
+
+/* 占쎄틙 占쎈떜繹먲옙 疫꿸퀡�뮟 */
+dd.hidden {
+   display: none;
+}
+
+
+.pagination{
+    width: 200px;
+    text-align: right;
+}
